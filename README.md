@@ -1,7 +1,7 @@
-# Font Pro Studio
+# Font Pro Preview
 
-Font Pro Studio — công cụ quản lý/chỉnh sửa font chạy trực tiếp trên Chrome.
+Trang xem trước font TTF/OTF chạy trực tiếp trên Chrome.
 
-Bản hiện tại: V32.3 — đồng bộ chiều cao A–Z + 0–9 và thay SVG theo từng ký tự.
+Bản hiện tại: V32.4 Preview Only — chỉ nạp font và xem trước. Toàn bộ chức năng chỉnh sửa, thay SVG, lưu dự án và xuất font đã được ẩn/khóa.
 
 GitHub Pages: https://dinhloi116-hue.github.io/font-pro/
