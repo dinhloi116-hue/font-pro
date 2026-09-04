@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Font Pro Preview V32.4</title>
+<title>Font Pro Preview V32.5</title>
 <style>body{font-family:Segoe UI,Arial;padding:24px}pre{white-space:pre-wrap}.muted{color:#64748b;font-size:13px;margin-top:8px}</style>
 </head>
 <body>
@@ -30,7 +30,7 @@ let stage='khởi động';
   stage='giải nén gzip';if(typeof DecompressionStream!=='function')throw new Error('Chrome này không hỗ trợ DecompressionStream.');const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));const reader=stream.getReader();const decoder=new TextDecoder('utf-8');let html='';while(true){const chunk=await reader.read();if(chunk.done)break;html+=decoder.decode(chunk.value,{stream:true});}html+=decoder.decode();
   stage='kiểm tra HTML';const utf8Bytes=new TextEncoder().encode(html);if(html.length!==228259)throw new Error('Số ký tự HTML V32 sai: '+html.length+' / 228259');if(utf8Bytes.length!==233479)throw new Error('Số byte UTF-8 V32 sai: '+utf8Bytes.length+' / 233479');if(!html.includes('V32.0 • SONG NGỮ + CHỌN NHIỀU + FIX Đ'))throw new Error('Nội dung V32 không hợp lệ.');
   stage='gắn chế độ chỉ xem trước';
-  html=html.replace('</body></html>','<script src="./preview-only-v324.js?v=1"><\/script></body></html>');
+  html=html.replace('</body></html>','<script src="./preview-only-v324.js?v=2"><\/script></body></html>');
   stage='mở ứng dụng';document.open();document.write(html);document.close();
 })().catch(e=>{document.getElementById('status').innerHTML='<pre style="color:#b91c1c">Không mở được trang preview: '+String(e)+'\n\nBước lỗi: '+stage+'\nLoader: v324-preview-only</pre>';document.getElementById('detail').textContent='Không thể khởi động chế độ xem trước.';console.error(e);});
 </script>
