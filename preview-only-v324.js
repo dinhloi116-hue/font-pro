@@ -23,11 +23,11 @@
       en: {
         alphabet: {
           label: 'English alphabet',
-          text: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789'
+          text: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\n0123456789'
         },
         pangram: {
           label: 'English sample sentence',
-          text: 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nThe quick brown fox jumps over the lazy dog.\n0123456789'
+          text: 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\n0123456789'
         },
         symbols: {
           label: 'Numbers & symbols',
@@ -37,15 +37,15 @@
       vi: {
         alphabet: {
           label: 'Bảng chữ cái tiếng Việt',
-          text: 'A Ă Â B C D Đ E Ê G H I K L M N O Ô Ơ P Q R S T U Ư V X Y\na ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y\n0 1 2 3 4 5 6 7 8 9'
+          text: 'A Ă Â B C D Đ E Ê G H I K L M N O Ô Ơ P Q R S T U Ư V X Y\n0 1 2 3 4 5 6 7 8 9'
         },
         marks: {
           label: 'Đầy đủ chữ và dấu',
-          text: 'Á À Ả Ã Ạ | Ă Ắ Ằ Ẳ Ẵ Ặ | Â Ấ Ầ Ẩ Ẫ Ậ\nÉ È Ẻ Ẽ Ẹ | Ê Ế Ề Ể Ễ Ệ | Í Ì Ỉ Ĩ Ị\nÓ Ò Ỏ Õ Ọ | Ô Ố Ồ Ổ Ỗ Ộ | Ơ Ớ Ờ Ở Ỡ Ợ\nÚ Ù Ủ Ũ Ụ | Ư Ứ Ừ Ử Ữ Ự | Ý Ỳ Ỷ Ỹ Ỵ\ná à ả ã ạ | ă ắ ằ ẳ ẵ ặ | â ấ ầ ẩ ẫ ậ\né è ẻ ẽ ẹ | ê ế ề ể ễ ệ | í ì ỉ ĩ ị\nó ò ỏ õ ọ | ô ố ồ ổ ỗ ộ | ơ ớ ờ ở ỡ ợ\nú ù ủ ũ ụ | ư ứ ừ ử ữ ự | ý ỳ ỷ ỹ ỵ'
+          text: 'Á À Ả Ã Ạ | Ă Ắ Ằ Ẳ Ẵ Ặ | Â Ấ Ầ Ẩ Ẫ Ậ\nÉ È Ẻ Ẽ Ẹ | Ê Ế Ề Ể Ễ Ệ | Í Ì Ỉ Ĩ Ị\nÓ Ò Ỏ Õ Ọ | Ô Ố Ồ Ổ Ỗ Ộ | Ơ Ớ Ờ Ở Ỡ Ợ\nÚ Ù Ủ Ũ Ụ | Ư Ứ Ừ Ử Ữ Ự | Ý Ỳ Ỷ Ỹ Ỵ'
         },
         sentence: {
           label: 'Câu mẫu tiếng Việt',
-          text: 'TIẾNG VIỆT ĐẦY ĐỦ DẤU\nTrường Sơn đông, Trường Sơn tây.\nÁo đấu chính hãng – Nguyễn Đức Anh – ĐHL SPORTS.'
+          text: 'TIẾNG VIỆT ĐẦY ĐỦ DẤU\nTRƯỜNG SƠN ĐÔNG, TRƯỜNG SƠN TÂY\nÁO ĐẤU CHÍNH HÃNG – ĐHL SPORTS'
         }
       }
     };
